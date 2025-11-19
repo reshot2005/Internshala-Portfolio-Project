@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Surya Kiran - Portfolio</title>
+  <!-- my css  -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- theme mode -->
+  <input type="checkbox" id="dark-mode" class="theme-checkbox">
+
+  <!-- ======= HEADERR ======= -->
+  <header class="site-header">
+    <nav class="nav-desktop">
+      <a class="logo" href="#home">Surya</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- static theme switch (css only) -->
+      <label for="dark-mode" class="theme-toggle"><span class="theme-icon"></span></label>
+    </nav>
+    <nav class="nav-mobile">
+      <input id="menu-toggle" type="checkbox" class="menu-toggle">
+      <label for="menu-toggle" class="hamburger"><span></span><span></span><span></span></label>
+      <a class="logo mobile-logo" href="#home">Surya</a>
+      <ul class="mobile-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <label for="dark-mode" class="theme-toggle mobile-theme-toggle"><span class="theme-icon"></span></label>
+    </nav>
+  </header>
+
+  <!-- ======= HOME SECTION ======= -->
+  <section id="home" class="hero section">
+    <div class="container hero-grid">
+      <figure class="hero-figure">
+        <img src="https://avatars.githubusercontent.com/u/200834889?s=400"
+             alt="My picture"
+             class="hero-image animated-image">
+      </figure>
+      <div class="hero-content">
+        <p class="lead small">Hello, I'm</p>
+        <h1 class="title">Surya Kiran</h1>
+        <p class="subtitle">Ethical Hacker • Python Developer</p>
+        <p class="brief">
+          I enjoy building web tools, python scripts and learning new security things. 
+          I don't like messy code, I like clean and working things.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="./assets/Surya-Kiran.pdf" download>Download Resume</a>
+          <a class="btn btn-ghost" href="#contact">Contact Me</a>
+        </div>
+
+        <div class="socials">
+          <a href="#"><img src="./assets/linkedin.png" class="icon" alt="linkedin"></a>
+          <a href="#"><img src="./assets/github.png" class="icon" alt="github"></a>
+          <a href="#"><img src="./assets/twitter_2168336.png" class="icon" alt="twitter"></a>
+          <a href="mailto:suryas.sec.official.@gmail.com"><img src="./assets/email.png" id="em" class="icon" alt="email"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ======= SKILLS SECTION ======= -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <p class="section-label">What I know</p>
+      <h2 class="title">Skills</h2>
+
+      <div class="skills-grid">
+        <!-- sample progress bars (all css only) -->
+        <article class="skill-card">
+          <div class="skill-header"><h3>Python</h3><span>90%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" style="--level:90%"></div></div>
+          <p>automation, backend, api work</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-header"><h3>Ethical Hacking</h3><span>70%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" style="--level:70%"></div></div>
+          <p>recon, Advance pentest labs</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-header"><h3>Web Dev</h3><span>75%</span></div>
+          <div class="skill-bar"><div class="skill-bar-fill" style="--level:75%"></div></div>
+          <p>html, css, js, responsive design with ui/ux</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= my services ======= -->
+  <section id="services" class="section services">
+    <div class="container">
+      <p class="section-label">What I Offer</p>
+      <h2 class="title">Services</h2>
+
+      <div class="services-grid">
+        <article class="card service-card">
+          <h3>Web App Development</h3>
+          <p>I create small responsive web apps using python flask and clean CSS.</p>
+        </article>
+
+        <article class="card service-card">
+          <h3>Automation Scripts</h3>
+          <p>I write Python scripts to automate boring things, file sorting, simple reports etc.</p>
+        </article>
+
+        <article class="card service-card">
+          <h3>Security Practice</h3>
+          <p>I build basic pentest labs and try to find security issues (in ethical way).</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= CERTIFICATIONS ======= -->
+  <section id="certifications" class="section certifications">
+    <div class="container">
+      <p class="section-label">My Learning Proof</p>
+      <h2 class="title">Certifications</h2>
+
+      <div class="cert-grid">
+        <article class="card cert-card">
+          <h3>Python Certificate</h3>
+          <p>Python basics to OOP and automation.</p>
+          <a class="btn btn-small btn-primary" href="./assets/Certificate.pdf" target="_blank">Open</a>
+        </article>
+
+        <article class="card cert-card">
+          <h3>Web Development</h3>
+          <p>HTML, CSS layout, simple JS.</p>
+          <a class="btn btn-small btn-primary" href="./assets/cert-webdev.pdf" target="_blank">Open</a>
+        </article>
+
+        <article class="card cert-card">
+          <h3>Certified Ethical Hacking</h3>
+          <p>Recon, vuln testing, reporting.</p>
+          <a class="btn btn-small btn-primary" href="./assets/cert-hacking.jpg" target="_blank">Open</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= PROJECTS SECTION ======= -->
+<section id="projects" class="section projects" aria-labelledby="projects-title">
+  <div class="container">
+    <p class="section-label">Recent work</p>
+    <h2 id="projects-title" class="title">Projects</h2>
+
+    <div class="projects-grid">
+      
+      <!-- 1 -->
+      <article class="project-card">
+        <img src="./assets/wifiblock.png" alt="Screenshot of a Wifi Block Tool" class="project-img" />
+        <h3>WiFiBlockTool</h3>
+        <p class="project-desc">
+          A powerful IP blocker tool that lets you block any device on your local WiFi network — even without internet access. Ideal for penetration testers, cybersecurity students, and ethical hackers.
+        </p>
+        <div class="project-tags">
+          <span>SHELL</span>
+        </div>
+        <div class="project-links">
+          <a class="btn btn-small" href="https://github.com/reshot2005/wifiblocktool" target="_blank">GitHub</a>
+        </div>
+      </article>
+
+      <!-- 2 -->
+      <article class="project-card">
+        <img src="./assets/ceh.png" alt="Screenshot of an CEH Exam Tool" class="project-img" />
+        <h3>CEH Exam Tool — Mock Test CLI (Python)</h3>
+        <p class="project-desc">
+          A fast, terminal-first CEH mock test tool written in Python. Practice timed quizzes, track your scores by domain, and export your results — all using simple JSON question banks.
+        </p>
+        <div class="project-tags">
+          <span>PYTHON</span><span>AUTOMATION</span>
+        </div>
+        <div class="project-links">
+          <a class="btn btn-small" href="https://github.com/reshot2005/StegCrypt" target="_blank">GitHub</a>
+        </div>
+      </article>
+
+      <!-- 3 -->
+      <article class="project-card">
+        <img src="./assets/tic.png" alt="Screenshot of a Tic-Tac-Toe" class="project-img" />
+        <h3>Tic-Tac-Toe</h3>
+        <p class="project-desc">
+          Neon-styled cyberpunk Tic-Tac-Toe game with both two-player mode and a bot opponent that plays smart.
+        </p>
+        <div class="project-tags">
+          <span>JAVASCRIPT</span><span>HTML</span><span>CSS</span>
+        </div>
+        <div class="project-links">
+          <a class="btn btn-small" href="https://github.com/reshot2005/Tic-Tac-Toe" target="_blank">GitHub</a>
+        </div>
+      </article>
+
+      <!-- 4 -->
+      <article class="project-card">
+        <img src="./assets/pdemo.png" alt="WebsitePhisherDemo" class="project-img" />
+        <h3>WebsitePhisherDemo</h3>
+        <p class="project-desc">
+          A realistic phishing awareness simulation website designed for training, education, and behavioral analysis.
+        </p>
+        <div class="project-tags">
+          <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span>
+        </div>
+        <div class="project-links">
+          <a class="btn btn-small" href="https://github.com/reshot2005/WebsitePhisherDemo" target="_blank">GitHub</a>
+        </div>
+      </article>
+
+      <!-- 5 -->
+      <article class="project-card">
+        <img src="./assets/covid.png" alt="Offline COVID Tracker" class="project-img" />
+        <h3>Offline COVID-19 Tracker</h3>
+        <p class="project-desc">
+          Offline-capable COVID tracker that uses OWID CSV data to show cases, recoveries, deaths using graphs and tables.
+        </p>
+        <div class="project-tags">
+          <span>JAVA</span><span>HTML</span><span>JS</span><span>CSS</span>
+        </div>
+        <div class="project-links">
+          <a class="btn btn-small" href="https://github.com/reshot2005/Covid-WebApp" target="_blank">GitHub</a>
+        </div>
+      </article>
+
+      <!-- 6 -->
+      <article class="project-card">
+        <img src="./assets/web.png" alt="Screenshot of TechBlog" class="project-img" />
+        <h3>TechBlog</h3>
+        <p class="project-desc">
+          Responsive internship blog website focused on Cybersecurity news, tutorials, and awareness posts.
+        </p>
+        <div class="project-tags">
+          <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span>
+        </div>
+        <div class="project-links">
+          <a class="btn btn-small" href="https://github.com/reshot2005/Blog-Website" target="_blank">GitHub</a>
+        </div>
+      </article>
+
+    </div> 
+  </div> 
+</section>
+
+
+  <!-- ======= CONTACT SECTION ======= -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <p class="section-label">Get in touch</p>
+      <h2 class="title">Contact Me</h2>
+
+      <div class="contact-grid">
+        <address class="contact-info">
+          <div class="contact-item">
+            <img src="./assets/email.png" class="icon contact-icon" alt="">
+            <a href="mailto:youremail@example.com">suryas.sec.official@example.com</a>
+          </div>
+          <div class="contact-item">
+            <img src="./assets/linkedin.png" class="icon contact-icon" alt="">
+            <a href="#" target="_blank">Linkedin</a>
+          </div>
+        </address>
+
+
+        <form class="contact-form" action="mailto:surya.sec.official@example.com" method="post" enctype="text/plain">
+          <label>Name
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>Email
+            <input type="email" name="email" placeholder="Your email" required>
+          </label>
+          <label>Message
+            <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <nav>
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <a class="btn btn-ghost" href="tel:+919778578198">Call</a>
+        <a class="btn btn-ghost" href="mailto:surays.sec.official@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Surya Kiran — Portfolio</p>
+    </div>
+  </footer>
+</body>
+</html>

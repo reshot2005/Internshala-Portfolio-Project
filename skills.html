@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills — Surya Kiran</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <input type="checkbox" id="dark-mode" class="theme-checkbox" />
+
+  <header class="site-header" role="banner">
+    <nav class="nav-desktop" aria-label="primary navigation">
+      <a class="logo" href="index.html#home">Surya Kiran</a>
+      <ul class="nav-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#certifications">Certifications</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <label for="dark-mode" class="theme-toggle" aria-label="Toggle theme">
+        <span class="theme-icon"></span>
+      </label>
+    </nav>
+
+    <nav class="nav-mobile" aria-label="mobile navigation">
+      <input id="menu-toggle" type="checkbox" class="menu-toggle" aria-hidden="true" />
+      <label for="menu-toggle" class="hamburger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+      <a class="logo mobile-logo" href="index.html#home">Surya Kiran</a>
+      <ul class="mobile-menu">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#certifications">Certifications</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <label for="dark-mode" class="theme-toggle mobile-theme-toggle" aria-label="Toggle theme">
+        <span class="theme-icon"></span>
+      </label>
+    </nav>
+  </header>
+
+  <main>
+    <section id="skills-page" class="section skills" aria-labelledby="skills-title">
+      <div class="container">
+        <p class="section-label">What I work with</p>
+        <h2 id="skills-title" class="title">Skills</h2>
+
+        <div class="skills-grid">
+          <!-- same cards as index -->
+          <article class="skill-card">
+            <div class="skill-header">
+              <h3>Python</h3>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-fill" style="--level: 90%;"></div>
+            </div>
+            <p class="skill-desc">
+              Scripting, automation, web backends (Flask / Django), working with APIs and data.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-header">
+              <h3>Ethical Hacking</h3>
+              <span class="skill-percent">70%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-fill" style="--level: 70%;"></div>
+            </div>
+            <p class="skill-desc">
+              Reconnaissance, basic pentesting workflows, reporting, and lab-based practice.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-header">
+              <h3>Web Development</h3>
+              <span class="skill-percent">75%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-fill" style="--level: 75%;"></div>
+            </div>
+            <p class="skill-desc">
+              HTML, CSS, JavaScript fundamentals, responsive layouts, and simple UI components.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-header">
+              <h3>Databases</h3>
+              <span class="skill-percent">65%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-fill" style="--level: 65%;"></div>
+            </div>
+            <p class="skill-desc">
+              PostgreSQL, SQLite, basic ORM usage, and simple schema design.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-header">
+              <h3>DevOps / Tools</h3>
+              <span class="skill-percent">55%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-fill" style="--level: 55%;"></div>
+            </div>
+            <p class="skill-desc">
+              Git, Docker basics, Linux command line, and simple CI-style workflows.
+            </p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-header">
+              <h3>Frameworks</h3>
+              <span class="skill-percent">70%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-bar-fill" style="--level: 70%;"></div>
+            </div>
+            <p class="skill-desc">
+              Flask, FastAPI, and basic React for small interactive interfaces.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <nav aria-label="footer navigation">
+        <ul class="footer-links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-contact">
+        <a class="btn btn-ghost" href="tel:+919778578198">Call</a>
+        <a class="btn btn-ghost" href="mailto:surays.sec.official@gmail.com">Email</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year">2025</span> Surya Kiran — Ethical Hacker &amp; Full Stack Python Developer</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Surya Kiran</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <input type="checkbox" id="dark-mode" class="theme-checkbox" />
+
+  <header class="site-header" role="banner">
+    <nav class="nav-desktop" aria-label="primary navigation">
+      <a class="logo" href="index.html#home">Surya Kiran</a>
+      <ul class="nav-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#certifications">Certifications</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <label for="dark-mode" class="theme-toggle" aria-label="Toggle theme">
+        <span class="theme-icon"></span>
+      </label>
+    </nav>
+
+    <nav class="nav-mobile" aria-label="mobile navigation">
+      <input id="menu-toggle" type="checkbox" class="menu-toggle" aria-hidden="true" />
+      <label for="menu-toggle" class="hamburger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+      <a class="logo mobile-logo" href="index.html#home">Surya Kiran</a>
+      <ul class="mobile-menu">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#certifications">Certifications</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <label for="dark-mode" class="theme-toggle mobile-theme-toggle" aria-label="Toggle theme">
+        <span class="theme-icon"></span>
+      </label>
+    </nav>
+  </header>
+
+  <main>
+    <!-- reuse same About section as index -->
+    <section id="about-page" class="section about" aria-labelledby="about-title">
+      <div class="container">
+        <p class="section-label">Get to know</p>
+        <h2 id="about-title" class="title">About Me</h2>
+
+        <div class="about-grid">
+          <div class="about-image-wrapper">
+            <img
+              src="https://avatars.githubusercontent.com/u/200834889?s=400"
+              alt="Profile picture of Surya Kiran"
+              class="about-image"
+            />
+          </div>
+
+          <div class="about-content-wrapper">
+            <div class="about-cards">
+              <article class="card">
+                <img src="./assets/experience.png" alt="Experience icon" class="icon card-icon" />
+                <h3>Experience</h3>
+                <p>1+ year building web apps, automation scripts, and small security tools.</p>
+              </article>
+
+              <article class="card">
+                <img src="./assets/education.png" alt="Education icon" class="icon card-icon" />
+                <h3>Education</h3>
+                <p>B.Sc. in Information Technology — actively learning security and development.</p>
+              </article>
+            </div>
+
+            <div class="about-text">
+              <p>
+                I'm a practical learner who likes to ship things end-to-end. I work with Python for backends and
+                automation, and I use modern web tools to build simple, fast interfaces.
+              </p>
+              <p>
+                On the security side, I’m learning ethical hacking and applying it responsibly to improve the
+                security of my own projects and small lab environments.
+              </p>
+
+              <a class="btn btn-primary" href="index.html#projects">Read my work</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <nav aria-label="footer navigation">
+        <ul class="footer-links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-contact">
+        <a class="btn btn-ghost" href="tel:+919778578198">Call</a>
+        <a class="btn btn-ghost" href="mailto:surays.sec.official@gmail.com">Email</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year">2025</span> Surya Kiran — Ethical Hacker &amp; Full Stack Python Developer</p>
+    </div>
+  </footer>
+</body>
+</html>
